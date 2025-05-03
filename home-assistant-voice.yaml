@@ -76,9 +76,10 @@ wifi:
 
 network:
   enable_ipv6: true
+  min_ipv6_addr_count: 1
 
 logger:
-  level: DEBUG
+  level: VERBOSE
   logs:
     sensor: WARN  # avoids logging debug sensor updates
 
